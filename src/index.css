@@ -1,0 +1,141 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5; /* Light gray background */
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  width: 600px; /* Slightly wider container */
+  margin: 30px auto;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-size: cover; /* Stretch image to fit container */
+  background-position: center; /* Center the image */
+}
+
+/* Form elements */
+label {
+  width: 200px;
+  display: inline-block;
+  font-size: 13px;
+  color: #666;
+  font-weight: bold;
+  margin-right: 5px; /* Add some space between label and input */
+  margin-bottom: 5px; /* Add some space between label and input */
+}
+
+.input-container {
+  width: 400px;
+  float: right; /* Float the container to the right */
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 300px; /* Full width */
+  padding: 8px 12px; /* Shorter padding */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  float: right;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+  color: #999;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center; /* Center elements horizontally */
+}
+
+/* Buttons */
+button {
+  display: block;
+  width: 400px; /* Full width */
+  padding: 12px 20px; /* Slightly larger padding for buttons */
+  border: 0;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.primary-button {
+  background-color: #1890ff;
+  color: #fff;
+}
+
+.primary-button:hover {
+  background-color: #1377e0;
+}
+
+.secondary-button {
+  background-color: #eda437;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+.secondary-button:hover {
+  background-color: #f0b965;
+}
+
+/* Error messages (optional) */
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  display: flex; /* Make the container a flexbox */
+  align-items: center; /* Vertically align items */
+  margin-bottom: 15px;
+}
+
+.form-group label,
+.form-group input {
+  display: flex; /* Make label and input flex items */
+}
+
+
+.text-container {
+  background-color: #a8dde2;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+p {
+  color: rgb(151, 15, 15);
+  text-indent: 15px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #da7918;
+  text-align: center; /* Center align the heading */
+  margin-top: 30px; 
+  margin-bottom: 30px; /* Add some space below the heading */
+}
